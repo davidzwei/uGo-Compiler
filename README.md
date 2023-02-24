@@ -1,6 +1,10 @@
 # uGo-Compiler
 A simple compiler that can compile uGo to JVM instructions.
 
+![](https://github.com/davidzwei/uGo-Compiler/blob/main/img/compiler-flow.png)
+
+Implement a simple compiler that can compile micro Go to Java assembly code by Yacc, Lex. The generated code will then be translated to the Java bytecode by the Java assembler, Jasmin. The generated Java bytecode should be run by the Java Virtual Machine (JVM).
+
 ### Environment
 - Recommended OS: Ubuntu 18.04
 - Install dependencies: ```$ sudo apt install flex bison```
